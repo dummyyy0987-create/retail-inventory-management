@@ -23,9 +23,11 @@ This is a FastAPI-based service for managing retail store inventory. The service
     ```
     uvicorn app.main:app --reload
     ```
-
+    Link of the repository:https://github.com/dummyyy0987-create/retail-inventory-management.git
 ## API Endpoints
 
 - `GET /stores/` - Fetch all stores
 - `GET /inventory/{store_id}` - Get inventory details for a specific store
 - `POST /inventory/{store_id}` - Update inventory for a store
+
+  
